@@ -1,0 +1,28 @@
+[project]
+name = "validarnif"
+version = "1.0.0"
+description = "Módulo Python para la validación de identificadores fiscales españoles: NIF, NIE y CIF."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "J.A", email = "sustoja@gmail.com" }]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Repository = "https://github.com/Sustoja/validarnif.git"
+
+[project.optional-dependencies]
+testing = ["pytest"]
