@@ -28,16 +28,16 @@ $ cd validarnif
 Importa el módulo y utiliza las funciones para validar NIF, NIE o CIF:
 
 ```python
-from validarnif import validar_dni, validar_nie, validar_cif, validar_nif_nie_cif
+from src import validar_dni, validar_nie, validar_cif, validar_nif_nie_cif
 
 # Validar un DNI
-print(validar_dni("77697094N")) 
+print(validar_dni("77697094N"))
 
 # Validar un NIE
-print(validar_nie("X0631255C")) 
+print(validar_nie("X0631255C"))
 
 # Validar un CIF
-print(validar_cif("H27513647")) 
+print(validar_cif("H27513647"))
 
 # Validar cualquier identificador con preprocesamiento
 print(validar_nif_nie_cif("x-631255-c", preprocesar=True))  

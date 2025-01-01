@@ -1,4 +1,4 @@
-from validarnif import validar_nif_nie_cif
+from src.validarnif.validadores import validar_nif_nie_cif
 
 
 def count_cases(fich: str) -> (int, int):
